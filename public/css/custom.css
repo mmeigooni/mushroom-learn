@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*
+ * Columbia Theme
+ * Custom Theme Styles
+ * File: css/custom.css
+ *
+ */
+
+ /* Begin custom styles */
+
+ .row-custom {
+  padding-left: 16%;
+}
+
+#projects .projects {
+  width: 26%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .row-custom {
+    padding-left: 0;
+  }
+
+  #projects .projects {
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+}
