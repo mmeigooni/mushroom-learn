@@ -4676,7 +4676,7 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
 }
 
 #logo-main {
-  width: 100%;
+  width: 80%;
   margin-bottom: 4em;
 }
 
@@ -4772,6 +4772,9 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
   }
 }
 
+.homework-form {
+  width: 100%;
+}
 .requirements {
   text-align: left;
   padding: 15px;
