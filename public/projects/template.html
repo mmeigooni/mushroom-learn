@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+  <meta name="description" content="Add a site description here"><!-- Add your site description -->
+  <meta name="author" content="Add author description here"><!-- Add your author description -->
+  <meta name="keywords" content="add,some,general,keywords,here,about,your,site"><!-- Add sites your keywords -->
+  <link rel="icon" href="../img/mushroom-ico.ico" type="image/x-icon" /><!-- Include a Favicon, (always keep in root of folder) -->
+
+  <title>Mushroom Learning -- Student Page</title><!-- Your page/site title -->
+
+  <!-- Load Our CSS - Do not alter the load order -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+  <link href="../css/animate.css" rel="stylesheet"><!-- Animatations -->
+  <link href="../css/icomoon.css" rel="stylesheet"><!-- Icon Font -->
+  <link href="../css/style.css" rel="stylesheet"><!-- Main theme stylesheet -->
+  <link href="../css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+  <!-- Load our fonts form Google -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+  <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+    <script src="../js/jquery.lazyload-any.min.js"></script>
+    
+
+  </head>
+
+  <body>
+
+    <!-- Our page loader -->
+    <div class="loadstack">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+      <!-- Menu Trigger -->
+      <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+        <span class="icon-close"></span>
+      </button>
+      <div class="explore">
+        <h3>Be Social</h3>
+      </div>
+
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h3>Connect with Jonathan Ive</h3>
+            <hr class="mini white central">
+            <ul class="socialicons motion">
+              <li class="two twitter"><a href="http://twitter.com/" title="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
+              <li class="four"><a href="http://dribbble.com/" title="Dribbble" class="dribbble" target="_blank"><span class="icon-dribbble"></span></a></li>
+              <li class="six"><a href="http://facebook.com/" title="Facebook" class="facebook" target="_blank"><span class="icon-facebook"></span></a></li>
+              <li class="eight"><a href="http://instagram.com/" title="Instagram" class="instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+              <li class="ten"><a href="http://vimeo.com/" title="Vimeo" class="vimeo" target="_blank"><span class="icon-vimeo"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+
+      <!-- Main menu toggle -->
+      <button class="toggle">
+        <a href="/projects"><img src="../img/logo-all-white-no-words.png" alt="White Mushroom Learning Logo"></a>
+      </button>
+      
+
+    </header>
+
+    <!-- Social menu toggle - keep outside of header to prevent horrible positioning problem on ipads -->
+    <button class="social" data-toggle="modal" data-target="#socialmodal">
+      <span class="icon-share"></span>
+    </button>
+    
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+      <!-- ============================ Section Start ============================= -->
+
+      <section class="container wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row padding">
+          <div class="col-xs-12 centertext challenge-intro">
+            <h1>How to Make PBJ Challenge</h1>
+            <h2>HTML/CSS -- Level 1</h2>
+            <img src="../img/challenge-pics/how-to-make-pbj.gif" alt="" class="challenge-pic">
+            <div class="requirements">
+              <p>Requirements</p>
+              <ul>
+                <li>HTML:
+                  <ul>
+                    <li>Use <code>h1</code> and <code>h2</code> tags for the page title</li>
+                    <li>Use either an <code>ol</code> or <code>ul</code> tag with nested <code>li</code> tags</li>
+                    <li>Use <code>a</code> tags to turn each <code>img</code> tag into an external hyperlink 
+                      <ul>
+                        <li>link <code>a</code> tag to either a <a href="https://www.wikipedia.org/" target="_blank">Wiki Page</a> or <a href="https://www.youtube.com" target="_blank">Youtube Video</a> about the image</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>CSS:
+                  <ul>
+                    <li>Use a pattern for the background in the <code>body</code></li>
+                    <li>Center all the text on the page</li>
+                    <li>Set <code>li</code> tags to display inline</li>
+                    <li>Set all the <code>img</code> tags to the same height</li>
+                    <li>Add borders and hover properties to <code>img</code> tags</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="three" class="white padding">
+        <div class="container challenge-videos">
+          <h2>Videos</h2>
+          <div class="col-md-12">
+            <div class="panel">
+
+
+
+              <!-- TABS for VIDS -->
+              <ul id="myTab1" class="nav nav-tabs nav-justified">
+
+                <li class="active"><a href="framework.html#intro-to-tags" data-toggle="tab">Intro to Tags</a>
+                </li>
+                <li><a href="framework.html#lists" data-toggle="tab">Lists</a>
+                </li>
+                <li><a href="framework.html#external-links" data-toggle="tab">External Links</a>
+                </li>
+                <li><a href="framework.html#centering-things" data-toggle="tab">Centering Things</a>
+                </li>
+                <li><a href="framework.html#border" data-toggle="tab">Border</a>
+                </li>
+                <li><a href="framework.html#hovers" data-toggle="tab">Hovers</a>
+                </li>
+
+
+              </ul>
+
+              <!-- / TABS for VIDS -->
+
+
+
+              <!-- CONTENT for TABS for VIDS -->
+              <div id="myTabContent" class="tab-content">
+
+
+                <div class="tab-pane fade active in" id="intro-to-tags">
+                  <div class="videoWrapper">
+                    <div class="lazyload-youtube">
+                      <img src="http://img.youtube.com/vi/OKIlC3Gn43k/0.jpg" width="560" height="315" style="display: inline;">
+                      <span class="play" style="display: block;"></span>
+
+                      <!-- <div class="lazyload-youtube" >
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/OKIlC3Gn43k?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                      </div>-->
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="lists">
+                  <div class="videoWrapper">
+                    <div class="lazyload-youtube">
+                      <img src="http://img.youtube.com/vi/5EvUO9X-oPA/0.jpg" width="560" height="315" style="display: inline;">
+                      <span class="play" style="display: block;"></span><!-- <div class="lazyload-youtube" >
+                          <iframe width="560" height="315" src="//www.youtube.com/embed/5EvUO9X-oPA?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="tab-pane fade" id="external-links">
+                    <div class="videoWrapper">
+                      <div class="lazyload-youtube">
+                        <img src="http://img.youtube.com/vi/oKjLV2TCzv4/0.jpg" width="560" height="315" style="display: inline;">
+                        <span class="play" style="display: block;"></span>
+                      <!-- <div class="lazyload-youtube" >
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/oKjLV2TCzv4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="centering-things">
+                      <div class="videoWrapper">
+                        <div class="lazyload-youtube">
+                          <img src="http://img.youtube.com/vi/8SPbDWk2PFM/0.jpg" width="560" height="315" style="display: inline;">
+                          <span class="play" style="display: block;"></span>
+                      <!-- <div class="lazyload-youtube" >
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/8SPbDWk2PFM?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="border">
+                      <div class="videoWrapper">
+                        <div class="lazyload-youtube">
+                          <img src="http://img.youtube.com/vi/RyfdRAYv4qo/0.jpg" width="560" height="315" style="display: inline;">
+                          <span class="play" style="display: block;"></span>
+                      <!-- <div class="lazyload-youtube" >
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/RyfdRAYv4qo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="hovers">
+                      <div class="videoWrapper">
+                        <div class="lazyload-youtube">
+                          <img src="http://img.youtube.com/vi/C9cTCpUCBaQ/0.jpg" width="560" height="315" style="display: inline;">
+                          <span class="play" style="display: block;"></span>
+                      <!-- <div class="lazyload-youtube" >
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/C9cTCpUCBaQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- / CONTENT for TABS for VIDS -->
+
+            </div>
+
+
+
+          </section>
+
+
+          <!-- ============================ Section End ============================== -->
+
+          <!-- ============================ Section Start ============================ -->
+
+
+
+          <!-- ============================ Section End ============================== -->
+
+          <!-- =============================== Footer ================================ -->
+
+          <footer class="padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <a href="/projects" title="Mushroom Learning"><img src="../img/logo-all-white.png" alt="White Mushroom Logo"></a>
+                  <p>Believe in what you know</p>
+                  <hr class="mini central light-grey-dk">
+                </div>
+              </div>
+            </div>
+          </footer>
+
+          <!-- / END page #wrapper -->
+        </div>
+
+        <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+        <script>
+        function load(img)
+        {
+          img.fadeOut(0, function() {
+            img.fadeIn(1000);
+          });
+        }
+        $('.lazyload-thumbnail').lazyload({load: load});
+        $('.lazyload-youtube').lazyload({trigger: 'click'});
+        </script>
+
+        <script src="../js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+        <script src="../js/wow.min.js"></script><!-- WoW animations -->
+        <script src="../js/jquery.easing.min.js"></script><!-- Easing for image animations -->
+        <script src="../js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+        <script src="../js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+        <script src="../js/jquery.mixitup.min.js"></script><!-- MixItUp plugin - for sortable portfolio -->
+        <script src="../js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+        <!-- Page-specific JS functions - these are functions that only occur on this specific page, so we DON'T want these placed in our scripts.js file as this file is loaded on every page for global site functions.  -->
+
+
+
+        <!-- ========== Insert your Google Analytics code below this line ========== -->
+
+        <!-- ======================== End Google Analytics ========================= -->
+
+      </body>
+
+      </html>
+
