@@ -4771,3 +4771,22 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
     margin-left: 40%;
   }
 }
+
+.requirements {
+  text-align: left;
+  padding: 15px;
+  margin-top: 20px;
+  border: 5px groove rgb(119, 119, 119);
+  border-radius: 5px;
+}
+.requirements > ul {
+  list-style-type: circle;
+}
+
+.requirements > ul > li > ul {
+  list-style-type: square;
+}
+
+.requirements > ul > li > ul > li > ul {
+  list-style-type: circle;
+}

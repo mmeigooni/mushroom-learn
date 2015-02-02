@@ -30,6 +30,18 @@ map "/projects/recipe" do
 }
 end
 
+map "/projects/how-to-make-pbj" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=3600' 
+    },
+    File.open('public/projects/how-to-make-pbj.html', File::RDONLY)
+  ]
+}
+end
 
 # map "/another-page" do
 #   run lambda { |env|
