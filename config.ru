@@ -3,7 +3,7 @@ use Rack::Static,
   :root => "public"
 
 
-map "/" do
+map "/projects" do
   run lambda { |env|
   [
     200, 
@@ -11,7 +11,7 @@ map "/" do
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=3600' 
     },
-    File.open('public/portfolio-sortable.html', File::RDONLY)
+    File.open('public/projects.html', File::RDONLY)
   ]
 }
 end
