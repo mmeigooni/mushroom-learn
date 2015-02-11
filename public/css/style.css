@@ -216,6 +216,10 @@ a:focus {
   color: #aaa
 }
 
+code {
+  background-color: #F2CFD9;
+}
+
 hr {
   margin-top: 80px;
   margin-bottom: 0;
