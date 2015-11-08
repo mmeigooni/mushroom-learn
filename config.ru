@@ -3,7 +3,7 @@ use Rack::Static,
   :root => "public"
 
 
-map "/projects" do
+map "/" do
   run lambda { |env|
   [
     200, 
