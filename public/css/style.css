@@ -4797,3 +4797,7 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
 .requirements > ul > li > ul > li > ul {
   list-style-type: circle;
 }
+
+.github-clone-link {
+  font-size: 24px;
+}
